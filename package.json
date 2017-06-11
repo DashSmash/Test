@@ -27,7 +27,11 @@
     "jquery": "^3.2.1"
   },
   "devDependencies": {
+    "css-loader": "^0.28.4",
     "eslint": "^3.19.0",
+    "less": "^2.7.2",
+    "less-loader": "^4.0.4",
+    "style-loader": "^0.18.2",
     "webpack": "^2.6.1"
   }
 }
