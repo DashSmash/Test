@@ -7,10 +7,14 @@ module.exports = {
         filename: 'bundle.js'
     },
     module: {
-    	loaders: [
+    	rules: [
     		{
-	    		test: /\.less&/,
-	    		loader: 'style!css!less'
+	    		test: /\.less$/,
+	    		use: [
+                    "style-loader",
+                    "css-loader",
+                    "less-loader"
+                ]
     		}
     	]
     }
